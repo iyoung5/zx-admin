@@ -1,0 +1,31 @@
+{
+    "name": "iyoung5/zx-admin",
+    "description": "zx admin",
+    "type": "library",
+    "keywords": ["zx", "laravel", "admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iyoung5",
+            "email": "iyoung5@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Zx\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zx\\Admin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
